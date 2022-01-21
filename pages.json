@@ -1,17 +1,73 @@
 {
 	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-app"
-		}
-	}],
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+
+            }
+            
+        }
+        ,{
+            "path" : "pages/cate/cate",
+            "style" :                                                                                    
+            {
+
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+
+            }
+                    }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "庭院设计预约",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8",
 		"app-plus": {
 			"background": "#efeff4"
 		}
+	},
+	"tabBar":{
+		"selectedColor":"#3B4144",
+		"list":[
+			{
+				"pagePath":"pages/home/home",
+				"text":"首页",
+				"iconPath":"static/icon/icons8_home_100px_6.png",
+				"selectedIconPath":"static/icon/icons8_home_100px_5.png"						
+			},
+			{
+				"pagePath": "pages/cate/cate",
+				"text":"新闻",
+				"iconPath":"static/icon/icons8_circled_menu_100px_1.png",
+				"selectedIconPath":"static/icon/icons8_circled_menu_100px.png"						
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text":"预约",
+				"iconPath":"static/icon/icons8_phone_100px.png",
+				"selectedIconPath":"static/icon/icons8_phone_100px_1.png"						
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text":"我的",
+				"iconPath":"static/icon/icons8_user_100px.png",
+				"selectedIconPath":"static/icon/icons8_user_100px_1.png"						
+			}
+			
+		]
 	}
 }
